@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update><sp_page action="INSERT_OR_UPDATE"><css/><id>x-loader</id><internal>false</internal><public>false</public><roles>admin</roles><short_description>Loads standard platform unload files</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-02 17:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>cc5f4bc5df771200ba13a4836bf2635c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x-loader</sys_name><sys_package display_value="Service Portal Test Pages" source="com.glide.service-portal.test">83f6dd5d6790220023c82e08f585ef36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_cc5f4bc5df771200ba13a4836bf2635c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-06-07 15:57:04</sys_updated_on><title>Portal Page and Widget Loader</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=cc5f4bc5df771200ba13a4836bf2635c"/><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Portal Page and Widget Loader - Container 1</name><order>1</order><sp_page display_value="x-loader">cc5f4bc5df771200ba13a4836bf2635c</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-02 17:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>845f4bc5df771200ba13a4836bf2635d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Portal Page and Widget Loader - Container 1</sys_name><sys_package display_value="Service Portal Test Pages" source="com.glide.service-portal.test">83f6dd5d6790220023c82e08f585ef36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_845f4bc5df771200ba13a4836bf2635d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-06-11 16:37:31</sys_updated_on><width>container</width></sp_container><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Portal Page and Widget Loader - Container 1">845f4bc5df771200ba13a4836bf2635d</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-02 17:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0c5f4bc5df771200ba13a4836bf2635d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Service Portal Test Pages" source="com.glide.service-portal.test">83f6dd5d6790220023c82e08f585ef36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_0c5f4bc5df771200ba13a4836bf2635d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-06-02 17:15:32</sys_updated_on></sp_row><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">0c5f4bc5df771200ba13a4836bf2635d</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-02 17:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>805f4bc5df771200ba13a4836bf2635e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Service Portal Test Pages" source="com.glide.service-portal.test">83f6dd5d6790220023c82e08f585ef36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_805f4bc5df771200ba13a4836bf2635e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-06-02 17:15:32</sys_updated_on></sp_column><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><short_description/><size>md</size><sp_column display_value="1">805f4bc5df771200ba13a4836bf2635e</sp_column><sp_widget display_value="x-loader">085f4bc5df771200ba13a4836bf2635c</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-02 17:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>185f4bc5df771200ba13a4836bf2635e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Portal Test Pages" source="com.glide.service-portal.test">83f6dd5d6790220023c82e08f585ef36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_185f4bc5df771200ba13a4836bf2635e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-06-02 17:15:32</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=185f4bc5df771200ba13a4836bf2635e"/><sp_widget action="INSERT_OR_UPDATE"><client_script><![CDATA[function($scope) {
+	var c = this;
+	// no lectures on DOM manip in a controller please
+	var inputFile = $("#xml-upload");
+	inputFile.change(function() {
+		c.invalid = false;
+		c.status = "Reading";
+		var file = c.file = this.files[0];
+		var r = new FileReader();
+		r.addEventListener("load", onFileLoad);
+		r.readAsText(file);		
+	});
+
+	// callback from file read
+	function onFileLoad(event) {
+		var textFile = event.target;
+		c.xml = textFile.result;
+		c.status = "Validating";
+		if (!validate(c.xml)) {
+			c.status = "Failed Validation";
+			c.invalid = true;
+			$scope.$digest();
+			return;			
+		}
+		
+		c.serverLoad();
+	}
+	
+	// call server to load
+	c.serverLoad = function() {
+		c.invalid = false;
+		c.status = "Loading";
+		c.server.get({xml: c.xml}).then(function(response) {
+			c.status = response.data.result;
+		})
+	}
+	
+	// check for valid XML
+	function validate(xml) {
+		if (xml.indexOf("<?xml") == -1)
+			return false;
+		
+		var $x = $($.parseXML(xml));
+		var $c = $x.children();
+		if ($c.length != 1)
+			return false;
+		
+		setContents($x);
+		return true;
+	}
+	
+	// build the contents record count by table object
+	function setContents($x) {
+		var $c = $x.children();
+		$c = $c.children();
+		c.contents = {};
+		$c.each(function (index) {
+			var child = this;
+			var n = child.tagName;
+			if (!c.contents[n])
+				c.contents[n] = 0;
+
+			c.contents[n]++;
+		})
+	}
+}]]></client_script><controller_as>c</controller_as><css>.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}</css><data_table>sp_instance</data_table><demo_data/><description/><docs/><field_list/><has_preview>false</has_preview><id>x-loader</id><internal>false</internal><link/><name>x-loader</name><option_schema/><public>false</public><roles>admin</roles><script><![CDATA[(function() {
+	if (!input)
+		return; 
+
+	var xml = input.xml;
+	try {
+		var l = new GlideLoader();
+		l.loadXML(xml);
+		data.result = "Success";
+	} catch (err) {
+		data.result = "Failure on server " + err.toString();
+	}
+})();]]></script><servicenow>false</servicenow><sys_class_name>sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-06-02 17:15:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>085f4bc5df771200ba13a4836bf2635c</sys_id><sys_mod_count>79</sys_mod_count><sys_name>x-loader</sys_name><sys_package display_value="Service Portal Test Pages" source="com.glide.service-portal.test">83f6dd5d6790220023c82e08f585ef36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_widget_085f4bc5df771200ba13a4836bf2635c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2016-06-07 15:53:47</sys_updated_on><template><![CDATA[<div>
+  <h4>Upload pages and widgets in xml format</h4>
+  <label class="btn btn-primary" for="xml-upload"><fa name="upload"></fa> Upload xml file</label>
+  <input class="inputfile" type="file" id="xml-upload">
+  <div ng-show="c.status">
+    <h4>{{c.status}} • {{c.file.name}} • Type {{c.file.type}} • Size {{c.file.size | number:0}} bytes</h4>
+    <div class="alert alert-warning" ng-show="c.invalid">
+      <h4>Validation failed - {{c.file.name}} - does not look like a platform unload file</h4>
+      <button ng-click="c.serverLoad()" class="btn btn-primary">Load anyway - give it a go</button>
+    </div>
+
+    <div ng-show="c.contents">
+      <div>Records unloaded:</div>
+      <ul class="list-unstyled">
+        <li ng-repeat="(k, v) in c.contents">{{v}} • {{k}}</li>
+      </ul>
+    </div>
+    <h4>Content</h4>
+    <pre ng-show="c.xml">{{c.xml}}</pre>
+  </div>
+</div>]]></template></sp_widget></record_update>
